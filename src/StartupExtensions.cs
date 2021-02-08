@@ -17,6 +17,7 @@
 namespace Talegen.Common.Messaging
 {
     using Microsoft.Extensions.DependencyInjection;
+    using Talegen.Common.Core.Errors;
     using Talegen.Common.Messaging.Configuration;
     using Talegen.Common.Messaging.Jobs;
 
@@ -35,6 +36,12 @@ namespace Talegen.Common.Messaging
         {
             // add the MessageSettings as singlton
             services.AddSingleton(service => messageSettings);
+
+            // setup messaging processor. This is what will process any messages on the queue. Instatiated when the background messaging job is run.
+            services.AddTransient((service) => MessagingFactory.CreateProcessor(messageSettings, service.GetService<IErrorManager>()));
+
+            // This can be injected into any code that requires it via IMessageSender interface. It is what puts messages on the queue to be processed.
+            services.AddTransient((service) => MessagingFactory.CreateSender(messageSettings));
 
             // add the background messaging job to process the messaging queue.
             services.AddHostedService<BackgroundMessagingJob>();
