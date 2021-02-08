@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EmailTemplateDirectoryNotFoundErrorText" xml:space="preserve">
+    <value>Указанная папка "{0}" для шаблонов сообщений электронной почты не найдена.</value>
+  </data>
+  <data name="LoggingBackgroundJobRunningText" xml:space="preserve">
+    <value>Работает работа по времени хостинговой очереди сообщений.</value>
+  </data>
+  <data name="LoggingBackgroundJobStoppingText" xml:space="preserve">
+    <value>Время хостинга Сообщения Очередь Работа останавливается.</value>
+  </data>
+  <data name="LoggingErrorQueueLoadText" xml:space="preserve">
+    <value>Не удается успешно получить сообщение из очереди во время Магазина ().</value>
+  </data>
+  <data name="LoggingProcessingBackgroundJobText" xml:space="preserve">
+    <value>Обработка справочной службы обмена сообщениями. Тип: {0}</value>
+  </data>
+  <data name="MessageSenderErrorText" xml:space="preserve">
+    <value>Ошибка произошла в службе задания отправителя сообщений.</value>
+  </data>
+  <data name="ProcessorSendGridErrorText" xml:space="preserve">
+    <value>Ошибка произошла во время выполнения процессора SendGrid.</value>
+  </data>
+  <data name="ProcessorSmtpErrorText" xml:space="preserve">
+    <value>Ошибка произошла во время выполнения процессора SMTP.</value>
+  </data>
+  <data name="StorageDirectoryCommandErrorText" xml:space="preserve">
+    <value>Ошибка произошла при попытке хранить в очереди сообщения в каталог "{0}".</value>
+  </data>
+</root>

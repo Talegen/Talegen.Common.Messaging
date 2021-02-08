@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en" target-language="fr-FR" original="TALEGEN.COMMON.MESSAGING/PROPERTIES/RESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6916.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="TALEGEN.COMMON.MESSAGING/PROPERTIES/RESOURCES.RESX" datatype="resx">
+        <trans-unit id="EmailTemplateDirectoryNotFoundErrorText" translate="yes" xml:space="preserve">
+          <source>The specified folder "{0}" for email message templates was not found.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Le dossier spécifié « {0} » pour les modèles de messages électroniques n’a pas été trouvé.</target>
+        </trans-unit>
+        <trans-unit id="LoggingBackgroundJobRunningText" translate="yes" xml:space="preserve">
+          <source>Timed Hosted Message Queue Job is running.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Timed Hosted Message Queue Job est en cours d’exécution.</target>
+        </trans-unit>
+        <trans-unit id="LoggingBackgroundJobStoppingText" translate="yes" xml:space="preserve">
+          <source>Timed Hosted Message Queue Job is stopping.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Timed Hosted Message Queue Job s’arrête.</target>
+        </trans-unit>
+        <trans-unit id="LoggingErrorQueueLoadText" translate="yes" xml:space="preserve">
+          <source>Unable to retrieve message from queue successfully during StoreQueue().</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Impossible de récupérer le message de la file d’attente avec succès pendant StoreQueue().</target>
+        </trans-unit>
+        <trans-unit id="LoggingProcessingBackgroundJobText" translate="yes" xml:space="preserve">
+          <source>Processing Background Messaging Service. Type: {0}</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Traitement du service de messagerie d’arrière-plan. Type: {0}</target>
+        </trans-unit>
+        <trans-unit id="MessageSenderErrorText" translate="yes" xml:space="preserve">
+          <source>An error occurred within the message sender job service.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Une erreur s’est produite dans le service d’emploi de l’expéditeur de messages.</target>
+        </trans-unit>
+        <trans-unit id="ProcessorSendGridErrorText" translate="yes" xml:space="preserve">
+          <source>An error occurred during the SendGrid processor execution.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Une erreur s’est produite lors de l’exécution du processeur SendGrid.</target>
+        </trans-unit>
+        <trans-unit id="ProcessorSmtpErrorText" translate="yes" xml:space="preserve">
+          <source>An error occurred during the SMTP processor execution.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Une erreur s’est produite lors de l’exécution du processeur SMTP.</target>
+        </trans-unit>
+        <trans-unit id="StorageDirectoryCommandErrorText" translate="yes" xml:space="preserve">
+          <source>An error occurred while attempting to store queued messages to directory "{0}".</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Une erreur s’est produite alors qu’il tentait de stocker des messages en file d’attente à l'{0} ».</target>
+        </trans-unit>
+        <trans-unit id="ParameterMustBeSpecifiedText" translate="yes" xml:space="preserve">
+          <source>The parameter {0} must have a value.</source>
+          <target state="new">The parameter {0} must have a value.</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

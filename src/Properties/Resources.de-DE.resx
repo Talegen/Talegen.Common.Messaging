@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EmailTemplateDirectoryNotFoundErrorText" xml:space="preserve">
+    <value>Der angegebene Ordner "{0}" für E-Mail-Nachrichtenvorlagen wurde nicht gefunden.</value>
+  </data>
+  <data name="LoggingBackgroundJobRunningText" xml:space="preserve">
+    <value>Der Zeitarbeitsdienst für gehostete Nachrichtenwarteschlangen wird ausgeführt.</value>
+  </data>
+  <data name="LoggingBackgroundJobStoppingText" xml:space="preserve">
+    <value>Der Zeitpunkt "Hosted Message Queue Job" wird beendet.</value>
+  </data>
+  <data name="LoggingErrorQueueLoadText" xml:space="preserve">
+    <value>Während StoreQueue() konnte die Nachricht nicht erfolgreich aus der Warteschlange abgerufen werden.</value>
+  </data>
+  <data name="LoggingProcessingBackgroundJobText" xml:space="preserve">
+    <value>Verarbeitung des Hintergrund-Messaging-Dienstes. Typ: {0}</value>
+  </data>
+  <data name="MessageSenderErrorText" xml:space="preserve">
+    <value>Fehler im Nachrichtenabsenderauftragsdienst.</value>
+  </data>
+  <data name="ProcessorSendGridErrorText" xml:space="preserve">
+    <value>Während der Ausführung des SendGrid-Prozessors ist ein Fehler aufgetreten.</value>
+  </data>
+  <data name="ProcessorSmtpErrorText" xml:space="preserve">
+    <value>Während der SMTP-Prozessorausführung ist ein Fehler aufgetreten.</value>
+  </data>
+  <data name="StorageDirectoryCommandErrorText" xml:space="preserve">
+    <value>Beim Versuch, Nachrichten in der Warteschlange im Verzeichnis "{0}" zu speichern, ist ein Fehler aufgetreten.</value>
+  </data>
+</root>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EmailTemplateDirectoryNotFoundErrorText" xml:space="preserve">
+    <value>找不到电子邮件模板{0}文件夹"已打开"。</value>
+  </data>
+  <data name="LoggingBackgroundJobRunningText" xml:space="preserve">
+    <value>正在运行的已点托管消息队列作业。</value>
+  </data>
+  <data name="LoggingBackgroundJobStoppingText" xml:space="preserve">
+    <value>已设置的托管消息队列作业正在停止。</value>
+  </data>
+  <data name="LoggingErrorQueueLoadText" xml:space="preserve">
+    <value>在 StoreQueue （） 期间无法从队列中成功检索消息。</value>
+  </data>
+  <data name="LoggingProcessingBackgroundJobText" xml:space="preserve">
+    <value>处理后台消息服务。类型： {0}</value>
+  </data>
+  <data name="MessageSenderErrorText" xml:space="preserve">
+    <value>邮件发送方作业服务中发生错误。</value>
+  </data>
+  <data name="ProcessorSendGridErrorText" xml:space="preserve">
+    <value>在 SendGrid 处理器执行期间发生错误。</value>
+  </data>
+  <data name="ProcessorSmtpErrorText" xml:space="preserve">
+    <value>SMTP 处理器执行期间发生错误。</value>
+  </data>
+  <data name="StorageDirectoryCommandErrorText" xml:space="preserve">
+    <value>尝试将排队的消息存储到目录"{0}"时出错。</value>
+  </data>
+</root>

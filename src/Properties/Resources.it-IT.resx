@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EmailTemplateDirectoryNotFoundErrorText" xml:space="preserve">
+    <value>La cartella "{0}" specificata per i modelli di messaggio di posta elettronica non è stata trovata.</value>
+  </data>
+  <data name="LoggingBackgroundJobRunningText" xml:space="preserve">
+    <value>Processo di coda messaggi ospitati a tempo in esecuzione.</value>
+  </data>
+  <data name="LoggingBackgroundJobStoppingText" xml:space="preserve">
+    <value>Il processo di coda messaggi ospitati a tempo si sta arrestando.</value>
+  </data>
+  <data name="LoggingErrorQueueLoadText" xml:space="preserve">
+    <value>Impossibile recuperare correttamente il messaggio dalla coda durante StoreQueue().</value>
+  </data>
+  <data name="LoggingProcessingBackgroundJobText" xml:space="preserve">
+    <value>Elaborazione del servizio di messaggistica in background. Tipo: {0}</value>
+  </data>
+  <data name="MessageSenderErrorText" xml:space="preserve">
+    <value>Si è verificato un errore all'interno del servizio processo mittente del messaggio.</value>
+  </data>
+  <data name="ProcessorSendGridErrorText" xml:space="preserve">
+    <value>Errore durante l'esecuzione del processore SendGrid.</value>
+  </data>
+  <data name="ProcessorSmtpErrorText" xml:space="preserve">
+    <value>Errore durante l'esecuzione del processore SMTP.</value>
+  </data>
+  <data name="StorageDirectoryCommandErrorText" xml:space="preserve">
+    <value>Si è verificato un errore durante il tentativo di archiviare i messaggi in coda nella directory "{0}".</value>
+  </data>
+</root>

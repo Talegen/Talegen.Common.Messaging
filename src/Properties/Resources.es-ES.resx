@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EmailTemplateDirectoryNotFoundErrorText" xml:space="preserve">
+    <value>No se encontró la carpeta especificada "{0}" para las plantillas de mensajes de correo electrónico.</value>
+  </data>
+  <data name="LoggingBackgroundJobRunningText" xml:space="preserve">
+    <value>Se está ejecutando el trabajo de cola de mensajes hospedados con tiempo.</value>
+  </data>
+  <data name="LoggingBackgroundJobStoppingText" xml:space="preserve">
+    <value>El trabajo de cola de mensajes hospedados con tiempo se detiene.</value>
+  </data>
+  <data name="LoggingErrorQueueLoadText" xml:space="preserve">
+    <value>No se puede recuperar el mensaje de la cola correctamente durante StoreQueue().</value>
+  </data>
+  <data name="LoggingProcessingBackgroundJobText" xml:space="preserve">
+    <value>Procesamiento del servicio de mensajería en segundo plano. Tipo: {0}</value>
+  </data>
+  <data name="MessageSenderErrorText" xml:space="preserve">
+    <value>Se ha producido un error en el servicio de trabajo del remitente del mensaje.</value>
+  </data>
+  <data name="ProcessorSendGridErrorText" xml:space="preserve">
+    <value>Se ha producido un error durante la ejecución del procesador SendGrid.</value>
+  </data>
+  <data name="ProcessorSmtpErrorText" xml:space="preserve">
+    <value>Se ha producido un error durante la ejecución del procesador SMTP.</value>
+  </data>
+  <data name="StorageDirectoryCommandErrorText" xml:space="preserve">
+    <value>Se ha producido un error al intentar almacenar mensajes en cola en el directorio "{0}".</value>
+  </data>
+</root>
