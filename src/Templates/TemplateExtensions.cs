@@ -54,7 +54,7 @@ namespace Talegen.Common.Messaging.Templates
                     tokenValues.Add("TIME", DateTime.UtcNow.ToShortTimeString());
                 }
 
-                result = tokenValues.Aggregate(result, (current, item) => current.Replace("$" + item.Key.ToUpperInvariant() + "$", item.Value, StringComparison.InvariantCultureIgnoreCase));
+                result = tokenValues.Aggregate(result, (current, item) => current.Replace("$" + item.Key.ToUpperInvariant() + "$", item.Value));
             }
 
             return result;

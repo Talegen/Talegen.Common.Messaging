@@ -7,7 +7,7 @@
     <SuppressPseudoWarning Condition="'$(Configuration)' == 'Debug'">true</SuppressPseudoWarning>
   </PropertyGroup>
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <ApplicationIcon>Assets\logo.ico</ApplicationIcon>
     <Authors>Talegen, LLC</Authors>
     <Description>Talegen Common Messaging library supports e-mail messaging mechanisms used throughout several Talegen products and services. It provides an abstraction for sending messages in a background queue to alieviate any processing from API requests and moving the messaging work to a background task.</Description>
@@ -17,12 +17,12 @@
     <PackageIcon>logo.png</PackageIcon>
     <RepositoryUrl>https://github.com/Talegen/Talegen.Common.Messaging</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageReleaseNotes>Initial commit of the library source code.</PackageReleaseNotes>
+    <PackageReleaseNotes>Updated build for netstandard2.0</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
-    <Version>1.0.0.0</Version>
+    <Version>1.0.1.0</Version>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets" Label="MultilingualAppToolkit" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\v$(MultilingualAppToolkitVersion)\Microsoft.Multilingual.ResxResources.targets')" />
   <Target Name="MATPrerequisite" BeforeTargets="PrepareForBuild" Condition="!Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets')" Label="MultilingualAppToolkit">
@@ -41,7 +41,7 @@
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="SendGrid" Version="9.22.0" />
     <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
-    <PackageReference Include="Talegen.Common.Core" Version="1.0.0" />
+    <PackageReference Include="Talegen.Common.Core" Version="1.0.1" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">

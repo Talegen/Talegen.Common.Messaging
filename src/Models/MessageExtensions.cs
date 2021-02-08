@@ -114,7 +114,7 @@ namespace Talegen.Common.Messaging.Models
             }
 
             // this will look for ; and allow for sending multiple recipients if to has multiple emails.
-            return CreateSenderMessage(new SenderMailAddress(from), to.Split(";").Select(addr => new SenderMailAddress(addr)).ToList(), subject, templateName, emailTemplateFolder, tokensList, resourceManager, cultureInfoOverride);
+            return CreateSenderMessage(new SenderMailAddress(from), to.Split(';').Select(addr => new SenderMailAddress(addr)).ToList(), subject, templateName, emailTemplateFolder, tokensList, resourceManager, cultureInfoOverride);
         }
 
         /// <summary>
@@ -206,8 +206,10 @@ namespace Talegen.Common.Messaging.Models
 
             if (textTemplateInfo.Exists)
             {
-                using StreamReader reader = textTemplateInfo.OpenText();
-                textContent = reader.ReadToEnd();
+                using (StreamReader reader = textTemplateInfo.OpenText())
+                {
+                    textContent = reader.ReadToEnd();
+                }
             }
 
             string htmlContent = string.Empty;
@@ -215,8 +217,10 @@ namespace Talegen.Common.Messaging.Models
 
             if (htmlTemplateInfo.Exists)
             {
-                using StreamReader reader = htmlTemplateInfo.OpenText();
-                htmlContent = reader.ReadToEnd();
+                using (StreamReader reader = htmlTemplateInfo.OpenText())
+                {
+                    htmlContent = reader.ReadToEnd();
+                }
             }
 
             return CreateSenderMessage(from, recipients, subject, textContent, htmlContent, false, tokensList);

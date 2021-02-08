@@ -82,11 +82,13 @@ namespace Talegen.Common.Messaging.Processors
 
                 client.EnableSsl = this.settings.UseSsl;
 
-                using var emailMessage = message.ToMailMessage();
-                if (!cancellationToken.IsCancellationRequested)
+                using (var emailMessage = message.ToMailMessage())
                 {
-                    // send the message
-                    await client.SendMailAsync(emailMessage);
+                    if (!cancellationToken.IsCancellationRequested)
+                    {
+                        // send the message
+                        await client.SendMailAsync(emailMessage);
+                    }
                 }
             }
             catch (Exception ex)
