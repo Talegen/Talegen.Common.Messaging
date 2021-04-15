@@ -24,6 +24,25 @@ namespace Talegen.Common.Messaging.Models
     public class MessagingContext
     {
         /// <summary>
+        /// Initializes a new instance of the <see cref="MessagingContext" /> class.
+        /// </summary>
+        public MessagingContext()
+            : this(string.Empty, null)
+        {
+        }
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="MessagingContext" /> class.
+        /// </summary>
+        /// <param name="from">Contains the from address.</param>
+        /// <param name="tokenValues">Contains optional seed token key values.</param>
+        public MessagingContext(string from, Dictionary<string, string> tokenValues = null)
+        {
+            this.From = from;
+            this.TokenValues = tokenValues ?? new Dictionary<string, string>();
+        }
+
+        /// <summary>
         /// Gets or sets the e-mail address of the sending agent.
         /// </summary>
         public string From { get; set; }
@@ -31,6 +50,6 @@ namespace Talegen.Common.Messaging.Models
         /// <summary>
         /// Gets a dictionary of token key value pairs for inserting into the message body of the e-mail.
         /// </summary>
-        public Dictionary<string, string> TokenValues { get; } = new Dictionary<string, string>();
+        public Dictionary<string, string> TokenValues { get; }
     }
 }
